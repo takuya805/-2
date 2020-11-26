@@ -1,0 +1,154 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+}
+a {
+   text-decoration:underline;
+}
+a:hover{
+  background-color:black;
+  color:white;
+}
+tbody{
+  text-align:left;
+}
+h1 {
+  font-weight:bold;
+  margin:15px;
+  font-size:25px;
+}
+span {
+  font-weight:bold;
+}
+
+p{
+  line-height:50px;
+  margin-left:60px
+}
+
+.index{
+  padding-left:30px;
+}
+table{
+  text-align:center;
+}
+
+thead{
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+th{
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: internal-center;
+}
+.index2{
+  padding-left:40px;
+}
+.title{
+  width:150px;
+}
+.body{
+  width:250px;
+}
+td{
+  font-size:12px;
+}
+td a{
+  margin:10px;
+}
+th{
+  font-size:13px;
+}
+h2{
+  font-size:20px;
+}
+textarea{
+   padding-right:8px;
+}
+p span{
+     font-size:13px;
+     padding-right:10px;
+}
+.tab{
+  margin-right:15px;
+}
+.edit p{
+  line-height: 15px;
+}
+.edit div{
+  margin:15px;
+}
+.edit-content{
+  margin:3px;
+}
+.link1{
+  margin-right:2px;
+}
+.link2{
+  margin-left:2px;
+}
+
+div span{
+  font-weight:normal;
+  margin-left:10px;
+  font-size:12px;
+}
+.show a{
+  font-size:12px;
+  margin-left:10px;
+}
+p span{
+  margin-right:5px;
+  font-size:12px;
+}
+.flash{
+  color:green;
+}
+#error{
+  width:400px;
+  border:2px solid red;
+  text-align:left;
+  font-size:12px;
+  background-color:#DDDDDD;
+}
+.error-content{
+  font-weight:bold;
+  color:white;
+  background-color:red;
+ }
+.error-message{
+  margin:25px 70px 0;
+}
+div.field_with_errors{
+  background-color:red;
+  padding:2px;
+  display:table;
+}
+label{
+  display:block;
+}
